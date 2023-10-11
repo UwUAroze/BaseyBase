@@ -1,0 +1,4 @@
+name: BaseyBase
+version: '${version}'
+main: me.aroze.baseybase.BaseyBase
+api-version: '1.20'
