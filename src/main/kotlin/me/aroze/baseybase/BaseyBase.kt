@@ -1,17 +1,13 @@
-package me.aroze.baseybase;
+package me.aroze.baseybase
 
-import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.plugin.java.JavaPlugin
 
-public final class BaseyBase extends JavaPlugin {
-
-    @Override
-    public void onEnable() {
+class BaseyBase : JavaPlugin() {
+    override fun onEnable() {
         // Plugin startup logic
-
     }
 
-    @Override
-    public void onDisable() {
+    override fun onDisable() {
         // Plugin shutdown logic
     }
 }
