@@ -20,7 +20,7 @@ class BaseyBase : FancyPlugin() {
             .config { it.defaultPermissionMessage = "<#ff6e6e>⚠ <#ff7f6e>Nuh uh!" }
             .build()
         for (command in getClassesInPackage("me.aroze.baseybase.commands")) // Remember to replace this!
-            commandHandler.register(command.getDeclaredConstructor().newInstance())
+            commandHandler.register(command.getField("INSTANCE")[null])
     }
 
 }
