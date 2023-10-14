@@ -8,7 +8,7 @@ import org.bukkit.command.CommandSender
 class ExampleCommand {
 
     @Command("exampley")
-    @Permission("exampley")
+    @Permission("basey.exampley")
     fun exampley(
         @Sender sender: CommandSender
     ) {
