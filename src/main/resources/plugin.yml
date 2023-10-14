@@ -2,3 +2,6 @@ name: BaseyBase
 version: '${version}'
 main: me.aroze.baseybase.BaseyBase
 api-version: '1.20'
+description: Basey wasey
+authors: [Aroze]
+website: https://github.com/UwUAroze/BaseyBase/
