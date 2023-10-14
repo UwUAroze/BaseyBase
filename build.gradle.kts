@@ -16,10 +16,14 @@ repositories {
         name = "sonatype"
         url = uri("https://oss.sonatype.org/content/groups/public/")
     }
+    maven("https://jitpack.io")
 }
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.20.1-R0.1-SNAPSHOT")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+
+    implementation("com.github.uwuaroze:arozeutils:4be989a0a7")
+    implementation("com.github.vaperion.blade:bukkit:3.0.8")
 }
 
 val targetJavaVersion = 17
