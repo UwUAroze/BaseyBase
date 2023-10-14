@@ -1,6 +1,6 @@
 package me.aroze.baseybase.commands
 
-import me.aroze.arozeutils.minecraft.generic.text.translate
+import me.aroze.arozeutils.minecraft.generic.text.translator.translate
 import me.vaperion.blade.annotation.argument.Sender
 import me.vaperion.blade.annotation.command.Command
 import me.vaperion.blade.annotation.command.Permission
