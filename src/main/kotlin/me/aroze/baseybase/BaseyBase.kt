@@ -1,6 +1,7 @@
 package me.aroze.baseybase
 
 import me.aroze.arozeutils.kotlin.reflection.getClassesInPackage
+import me.aroze.arozeutils.kotlin.reflection.registerListenersPackage
 import me.aroze.arozeutils.minecraft.FancyPlugin
 import me.vaperion.blade.Blade
 import me.vaperion.blade.bukkit.BladeBukkitPlatform
@@ -9,6 +10,7 @@ class BaseyBase : FancyPlugin() {
 
     override fun onEnable() {
         registerCommands()
+        registerListenersPackage("me.aroze.punsies.listeners")
     }
 
     override fun onPluginDisable() {
