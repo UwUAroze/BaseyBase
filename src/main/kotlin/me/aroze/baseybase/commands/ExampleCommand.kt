@@ -13,7 +13,7 @@ object ExampleCommand {
     fun exampley(
         @Sender sender: CommandSender
     ) {
-        sender.sendMessage(translate("<#cef5d4>no way!"))
+        sender.sendMessage(translate("<p>no way! <s>this is crazy!"))
     }
 
 
