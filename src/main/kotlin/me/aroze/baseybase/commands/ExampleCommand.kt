@@ -2,7 +2,8 @@ package me.aroze.baseybase.commands
 
 import me.aroze.arozeutils.minecraft.generic.text.translate
 import me.vaperion.blade.annotation.argument.Sender
-import me.vaperion.blade.annotation.command.*
+import me.vaperion.blade.annotation.command.Command
+import me.vaperion.blade.annotation.command.Permission
 import org.bukkit.command.CommandSender
 
 class ExampleCommand {

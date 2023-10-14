@@ -2,12 +2,8 @@ package me.aroze.baseybase
 
 import me.aroze.arozeutils.kotlin.reflection.getClassesInPackage
 import me.aroze.arozeutils.minecraft.FancyPlugin
-import me.aroze.arozeutils.minecraft.instance
 import me.vaperion.blade.Blade
 import me.vaperion.blade.bukkit.BladeBukkitPlatform
-import net.kyori.adventure.text.minimessage.MiniMessage
-import org.bukkit.Bukkit
-import org.bukkit.plugin.java.JavaPlugin
 
 class BaseyBase : FancyPlugin() {
 
